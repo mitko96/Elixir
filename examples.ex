@@ -17,17 +17,14 @@ defmodule FirstExercise do
        IO.puts("First console output!")
   end 
 
-  def greeting(!) do
-    "Hello, " <> "!"
+  def greeting(name) do
+	name = "!"
+    "Hello " <> name
   end
 
  
-  def power_of_two(3) do
-    return 9
+  def power_of_two(x) do
+	x*x	 
   end
-
-   def power_of_two(4) do
-    return 16
-   end
  
 end
